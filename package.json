@@ -11,5 +11,8 @@
     "lint": "next lint"
   },
   "author": "Gabriel Mendonça Bennemann",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@skynexui/components": "^1.23.7"
+  }
 }
