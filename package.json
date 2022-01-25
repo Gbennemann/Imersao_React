@@ -1,0 +1,15 @@
+{
+  "name": "imersao_react",
+  "version": "0.0.1",
+  "description": "Meu primeiro projeto React",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": "Gabriel Mendonça Bennemann",
+  "license": "MIT"
+}
