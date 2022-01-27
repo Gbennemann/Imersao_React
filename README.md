@@ -10,4 +10,4 @@ Aplicação desenvolvida em React / Next que emula o chat do Discord com um tema
 - [Next.js](https://nextjs.org/)
 - [@skynexui/components](https://skynexui.dev/)
 
-![Foto do projeto](/assets/Aluracord-github.png)
+![Foto do projeto](/Assets/Aluracord-github.png)
