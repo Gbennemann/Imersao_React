@@ -45,7 +45,7 @@ export default function PaginaInicial() {
           alignItems: 'center',
           justifyContent: 'center',
           backgroundImage:
-            'url(https://initiate.alphacoders.com/images/923/cropped-1920-1080-923417.jpg?7372)',
+            'url(https://img4.goodfon.com/original/1920x1080/c/78/torii-osen-priroda-tsvety.jpg)',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundBlendMode: 'multiply'
@@ -113,6 +113,7 @@ export default function PaginaInicial() {
             /> */
               <TextField
                 value={username}
+                placeholder="Digite seu usuário do GitHub aqui!"
                 onChange={function (event) {
                   console.log('usuario digitou', event.target.value)
                   const valor = event.target.value
@@ -164,7 +165,11 @@ export default function PaginaInicial() {
                 borderRadius: '50%',
                 marginBottom: '16px'
               }}
-              src={`https://github.com/${username}.png`}
+              src={
+                username
+                  ? `https://github.com/${username}.png`
+                  : 'https://github.com/Gbennemann.png'
+              }
             />
             <Text
               variant="body4"
