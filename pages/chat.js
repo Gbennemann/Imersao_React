@@ -32,7 +32,7 @@ export default function ChatPage() {
       .order('id', { ascending: false })
       .then(({ data }) => {
         console.log('Dados da consulta:', data)
-        setListaDeMensagens(data)
+        setListaDeMensagens(data || [])
       })
 
     esutaMensagensEmTempoReal(novaMensagem => {
